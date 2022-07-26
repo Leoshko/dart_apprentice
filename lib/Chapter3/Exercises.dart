@@ -10,7 +10,7 @@ print(averageAge);
 print(' ');
 
 //STRINGS
-//exercises
+//exercises 
 const firstName = 'Veronika';
 const lastName = ' Leoshko';
 const fullNAme = firstName + lastName;
