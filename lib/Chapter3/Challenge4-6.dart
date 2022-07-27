@@ -14,4 +14,5 @@ void main(List<String> args) {
   const multiplier = 5;
   final summary = '$number \u00D7 $multiplier = ${number * multiplier}';
   print(summary);
+  // type: string
 }
