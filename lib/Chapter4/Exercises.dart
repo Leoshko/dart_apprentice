@@ -12,4 +12,16 @@ void main() {
   const ray = 'Ray Wenderlich';
   const rayIsReader = reader == ray;
   print('rayIsReader: $rayIsReader');
+  print(' ');
+
+  //THE 'IF' STATEMENT
+  //check the above
+  if (isTeenager) {
+    print('Teenager');
+  } else {
+    print('Not a teenager');
+  }
+
+  const answer = (isTeenager) ? 'Teenager' : 'not a teenager';
+  print(answer);
 }
