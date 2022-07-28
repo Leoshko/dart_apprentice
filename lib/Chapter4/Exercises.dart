@@ -11,8 +11,7 @@ void main() {
   const reader = 'Veronika';
   const ray = 'Ray Wenderlich';
   const rayIsReader = reader == ray;
-  print('rayIsReader: $rayIsReader');
-  print(' ');
+  print('rayIsReader: $rayIsReader\n');
 
   //THE 'IF' STATEMENT
   //check the above
@@ -23,24 +22,25 @@ void main() {
   }
 
   const answer = (isTeenager) ? 'Teenager' : 'not a teenager';
-  print(answer);
-  print(' ');
+  print('$answer\n');
 
 
 //SWITCH STATEMENTS
    const audioState = AudioState.playing;
    switch (audioState) {
     case AudioState.paused:
-      print('Audio paused');
+      print('Audio paused\n');
       break;
     case AudioState.playing:
-      print('Audio playing');
+      print('Audio playing\n');
       break;
     case AudioState.stopped:
-      print('Audio stopped');
+      print('Audio stopped\n');
       break;
    }
 
+//LOOPS
+ 
 }
 
  enum AudioState {
