@@ -19,9 +19,32 @@ void main() {
   if (isTeenager) {
     print('Teenager');
   } else {
-    print('Not a teenager');
+    print('Not a teenager'); 
   }
 
   const answer = (isTeenager) ? 'Teenager' : 'not a teenager';
   print(answer);
+  print(' ');
+
+
+//SWITCH STATEMENTS
+   const audioState = AudioState.playing;
+   switch (audioState) {
+    case AudioState.paused:
+      print('Audio paused');
+      break;
+    case AudioState.playing:
+      print('Audio playing');
+      break;
+    case AudioState.stopped:
+      print('Audio stopped');
+      break;
+   }
+
 }
+
+ enum AudioState {
+      playing,
+      stopped,
+      paused,
+    }
