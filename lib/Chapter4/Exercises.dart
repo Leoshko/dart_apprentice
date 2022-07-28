@@ -39,8 +39,6 @@ void main() {
       break;
    }
 
-//LOOPS
- 
 }
 
  enum AudioState {
