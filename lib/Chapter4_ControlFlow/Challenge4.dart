@@ -9,5 +9,5 @@ for (var i = 1; i <= 10; i++) {
 }
 print(numbers[numbers.length - 1]);
 
-//Fibonacci algorithm
+//Fibonacci sequence
 }
