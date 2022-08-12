@@ -1,14 +1,7 @@
 void main(List<String> args) {
-  print('Hello!');
-
-  print(youAreWonderful(name: 'Bob'));
+ const people = ['Chris', 'Tiffani', 'Pablo'];
+  people.forEach((person) {
+    String phrase = 'You are wonderful, $person.' ;
+    print(phrase);
+  });
 }  
-
-String youAreWonderful({
-  required String name, 
-  int numberPeople = 30
-  }) {
-    return 'You are wonderful, $name. $numberPeople people think so.' ;
-  }
-
-  
