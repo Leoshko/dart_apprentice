@@ -1,11 +1,16 @@
 void main(List<String> args) {
-  final user = User(42, 'Ray');
+  final user = User(id: 42, name: 'Ray');
   print(user);
+  final anonymousUser = User.anonymous();
+  print(anonymousUser);
 }
 
 class User {
-  User(this.id, this.name);
-  
+  // unnamed constructor
+User({this.id = 0, this.name = 'anonymous'});
+// named constructor
+User.anonymous() : this();
+
   int id;
   String name;
 
@@ -13,9 +18,8 @@ class User {
     return '{"id":$id,"name":"$name"}';
   }
 
-  @override 
+  @override
   String toString() {
-  return 'User(id: $id, name: $name)';
+    return 'User(id: $id, name: $name)';
   }
 }
-
